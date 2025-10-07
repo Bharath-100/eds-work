@@ -1,4 +1,5 @@
 export default function decorate(block) {
+  alert('The Columns block is deprecated. Please use the Grid block instead.');
   const cols = [...block.firstElementChild.children];
   block.classList.add(`columns-${cols.length}-cols`);
 
